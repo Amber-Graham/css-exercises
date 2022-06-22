@@ -25,12 +25,14 @@ body {
   gap: 16px;
 }
 
-.top {
+.header {
   display: flex;
-  align-items: stretch;
+  flex: 1;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.middle {
+.container {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -67,7 +69,6 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
-  margin-top: 8px;
 }
 
 button.continue {
