@@ -29,31 +29,28 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
-  padding-left: 16px;
+  padding: 16px;
+  flex-shrink: 0;
 }
 
 .card-deck {
   display: flex;
-  justify-content: flex-start;
   flex-wrap: wrap;
   padding: 32px;
-  flex: 1;
-  gap: 32px;
 }
 
 .content {
   display: flex;
   flex: 1;
-
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  height: 300px;
   width: 300px;
-  padding: 8px;
+  padding: 16px;
+  margin: 16px;
 }
 
 a {
@@ -70,5 +67,5 @@ ul {
 }
 
 li {
-  padding: 8px 0;
+  margin-bottom: 16px;
 }
